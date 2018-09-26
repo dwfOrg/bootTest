@@ -1,0 +1,16 @@
+package com.fxqyem.bootDemo;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping(value="bootDemo")
+public class DemoController {
+	
+	@RequestMapping(value="getMsg")
+	String getMsg(){
+		
+		return "i am message!";
+	}
+	
+}

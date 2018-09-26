@@ -1,0 +1,13 @@
+package com.fxqyem.bootDemo;
+
+@Controller
+@RequestMapping(value="bootDemo")
+public class DemoController {
+	
+	@RequestMapping(value="getMsg")
+	String getMsg(){
+		
+		return "i am message!";
+	}
+	
+}

@@ -1,0 +1,6 @@
+package com.fxqyem.serhi;
+
+@Service
+public class HiService {
+
+}

@@ -1,0 +1,5 @@
+server:
+  port: 9090
+  
+mconfig:
+  message: hello world！i am an message from：

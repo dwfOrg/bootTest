@@ -1,0 +1,10 @@
+package com.fxqyem.bootDemo;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+@SpringBootApplication
+public class DemoController {
+
+	
+}

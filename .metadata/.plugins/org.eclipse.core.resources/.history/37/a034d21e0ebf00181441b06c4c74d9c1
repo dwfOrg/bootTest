@@ -1,0 +1,19 @@
+package com.fxqyem.serhi;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class ServiceHiController {
+	@Value("${server.port}")
+	private String port;
+	
+	@RequestMapping(value="hi")
+	@ResponseBody
+	public String sayHi(){
+		return "i am from PORT："+port;
+	}
+	
+}
